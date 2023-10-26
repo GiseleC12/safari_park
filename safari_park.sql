@@ -67,3 +67,9 @@ INSERT INTO assignment (staff_id, enclosure_id, day) VALUES (1,   4, 'Thursday')
 INSERT INTO assignment (staff_id, enclosure_id, day) VALUES (2,   1, 'Thursday');
 INSERT INTO assignment (staff_id, enclosure_id, day) VALUES (3,   2, 'Thursday');
 INSERT INTO assignment (staff_id, enclosure_id, day) VALUES (4,   3, 'Thursday');
+
+-- Task 1:
+-- SELECT animal.name FROM animal INNER JOIN enclosure ON animal.enclosure_id = enclosure.id where enclosure.name = 'big cat field';
+
+-- Taksk 2:
+-- SELECT staff.name FROM staff INNER JOIN assignment ON staff.id = assignment.staff_id INNER JOIN enclosure ON assignment.enclosure_id = enclosure.id WHERE enclosure.name = 'monkey cage';
